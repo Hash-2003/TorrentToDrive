@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ================================
+# Project-specific (Colab + ingestion)
+# ================================
+
+# Large downloaded artifacts
+*.iso
+*.img
+*.bin
+
+# aria2 / download state
+aria2.session
+*.aria2
+state/
+logs/
+
+# Google Colab mount / runtime
+/content/
+/drive/
